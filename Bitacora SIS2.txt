@@ -1,0 +1,68 @@
+
+10.04.15 
+	-Hacer el diagrama de clases de manera abstracta.
+	-Ver video tutorial para aprender a usar github.
+	-Crear proyecto "PublicTransport" en NetBeans.
+	-Crear un clon del repositorio en mi computador.
+11.04.15
+	-Usar el repositorio, actualizar el proyecto con un commit
+	subir la clase persona implementada
+13.04.15
+	-implementando la clase interface basico con botones file
+	(agregar persona, eliminar persona y exit), y una lista de 
+	personas para ir agregando y quitando para pruebas..
+14.04.15
+	-implementando las clases administradores(Administratives) 
+	y conductor(Drivers) que son parte de la clase empleados (Staff)..
+	-implementando las clases generadorQR y aniadiendo una pestania
+	en la interface para ejecutarlo.. 
+15.04.15
+	-subir la libreria barcode para el QR en el repositorio..
+16.04.15
+	-buscando informacion del funcionamiento de impresora en java
+	-editando diseño de tarjetas, 1 modelo en 5 colores
+17.04.15
+	-implementando la clase diseñador de tarjetas y agregado a la interface
+18.04.15
+	-implementando la clase diseñador para QR y agregado a la interface
+	-boton cargar foto, implementado. carga una foto al diseñio, la foto
+	debe estar adjunta en la carpeta imagenes..
+	-diseñio de la tarjeta a imprimir terminada, contiene los espacios para 
+	llenar los datos de la persona, incluyendo su foto.
+19.04.15
+	-boton generar QR, implementado!!!, genera una imagen apartir de la 
+	cedula de identidad introducida en el diseño de la tarjeta, luego 
+	añade la imagen al diseño de la tarjeta en su reverso..
+19.04.15
+	-boton imprimir del diseñador de tarjetas, implementado!!! falta modificar
+	que toda la tarjeta este incluida en el panel para que imprima la tarjeta
+	como tal, por ahora imprime el panel vacio, color por defecto azul..
+	-boton imprimir del diseñador QR, implementado!!! falta modificar el 
+	contenido de panel incluya la imagen QR generado, por ahora imprime el panel 
+	vacio, color por defecto plomo..	
+20.04.15
+	-targuetero "Diseñador de tarjetas con QR" implementado completamente, 
+	5 modelos, carga fotografia, llena datos personales, limpia la tarjeta, 
+	imprime la tarjeta.
+
+23.04.15
+	-editando nuevos fondos, en base a la foto escojida como logo en el facebook.
+	-interface nuevo cliente. mejorado con los estandares aplicados al diseñador 
+	de tarjetas. y otras mejoras...
+	-panel principal con imagen de fondo, incluyendo logo de la empresa.
+26.04.15
+	-la clase eliminar contacto implementado, tambien se puede cargar o mostrar 
+	los datos antes de ser eliminado, Mejoras en la clase disenador de tarjetas, 
+	se puede cargar datos apartir de el numero de cedula.
+	-agregando la libreria Absolute Layout por un error al hacer la sincronizacion
+	con el github
+
+28.04.15
+	-haciendo un "back restore" para eliminar commints subidos por error.
+		git reset --hard 71c27777543ccfcb0376dcdd8f6777df055ef479
+		git push --force
+	- haciendo la máscara de login para el segundo Sprint, administrador
+	- implementando mensajes para el usuario/.
+	- refactoring de los Paquetes,...
+	- restriciones implementadas para la clase crear usuario, no guarda datos del
+	cliente a menos q se allá llenado todo el formulario

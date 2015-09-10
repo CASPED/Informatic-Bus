@@ -1,0 +1,10 @@
+ /*
+    1) coneccion a base de datos
+        Connection conexion= DBConector.GetConnection() ;
+    2)las consultas se insertan como strings
+		String query = " insert into Cliente (ci, nombre, apellido, celular, "
+    3) lee la consulta y prepara para ejecutarla en la base de datos    
+		PreparedStatement preparedStmt = conexion.prepareStatement(query);
+    4) ejecuta la consulta 
+        preparedStmt.execute();
+    */
